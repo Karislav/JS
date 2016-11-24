@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+var USD = 63.63
+var EUR = 67.54
+var RUB = parseInt(prompt("Введите кол-во рублей: "));
+var a = (RUB / USD);
+var b = (RUB / EUR);
+alert((Math.round(a * 100) / 100) +  " USD и " + (Math.round(b * 100) / 100) + " EUR");
+// Автор Даниленко Артем
+</script>
